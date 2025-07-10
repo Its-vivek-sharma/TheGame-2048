@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game - 2048</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="mainContent">
+        <h1>The Game - 2048</h1>
+        <hr>
+        <h2>
+            Score: <span id="score">0</span>
+            &nbsp;|&nbsp;
+            High Score: <span id="highScore">0</span>
+        </h2>
+        <div id="board"></div>
+        <button id="startBtn">Start Game</button>
+        <button id="restartBtn" style="display:none;">Restart</button>
+    </div>
+    <div id="hintPop" class="hint-pop hidden">
+        <div class="hint-content">
+            <div class="arrows arrows-keyboard">
+                <div>
+                    <span class="arrow" style="visibility:hidden"></span>
+                    <span class="arrow">&#8593;</span>
+                    <span class="arrow" style="visibility:hidden"></span>
+                </div>
+                <div>
+                    <span class="arrow">&#8592;</span>
+                    <span class="arrow">&#8595;</span>
+                    <span class="arrow">&#8594;</span>
+                </div>
+            </div>
+            <div class="hint-text">
+                Use <b>Arrow Keys</b> or <b>Swipe</b> to move tiles!
+            </div>
+            <button id="hintOkBtn">OK</button>
+        </div>
+    </div>
+    <div id="gameOverModal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Game Over!</h2>
+            <p>Your Score: <span id="finalScore"></span></p>
+            <button id="playAgainBtn">Play Again</button>
+        </div>
+    </div>
+    <footer id="emojiFooter"></footer>
+</body>
+</html>
