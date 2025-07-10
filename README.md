@@ -54,10 +54,6 @@ TheGame-2048/
 └── README.md       # Project documentation
 ```
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 🙌 Acknowledgments
 
 - Inspired by the original [2048 by Gabriele Cirulli](https://github.com/gabrielecirulli/2048)
