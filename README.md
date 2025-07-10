@@ -4,7 +4,7 @@ A classic version of the popular puzzle game **2048**, built using only **HTML**
 
 ## 🎮 Play Now
 
-▶️ **[Play the Game 2048](https://its-vivek-sharma.github.io/TheGame-2048/)**
+▶️ **Click here - [Play the Game 2048](https://its-vivek-sharma.github.io/TheGame-2048/)** 
 
 ## 📌 About
 
