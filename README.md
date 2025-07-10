@@ -1,70 +1,67 @@
-# The Game 2048
+# **[The Game 2048](https://github.com/Its-vivek-sharma/TheGame-2048.git)**
 
 A classic version of the popular puzzle game **2048**, built using only **HTML**, **CSS**, and **JavaScript**. Slide the numbered tiles to combine them and reach the **2048** tile!
 
-## 🎮 About
+## 🎮 Play Now
 
-2048 is a fun and addictive tile-based game. Each move slides all tiles in one direction, combining any adjacent tiles with the same value. The goal is to create a tile with the number **2048** — but you can keep playing to chase even higher scores.
+▶️ **[Play the Game 2048](https://its-vivek-sharma.github.io/TheGame-2048/)**
 
-## 🚀 Live Demo
+## 📌 About
 
-*(Optional: Add a GitHub Pages or other hosting link here)*  
-[Play the Game](https://yourusername.github.io/the-game-2048)
+2048 is a fun and addictive tile-based puzzle game. Each move slides all tiles in one direction, combining adjacent tiles with the same value. The objective is to reach the **2048** tile — but you can keep playing to get even higher scores.
 
 ## 🛠 Built With
 
-- HTML5
-- CSS3
-- Vanilla JavaScript (no frameworks)
+- HTML
+- CSS
+- JavaScript
 
 ## 📂 How to Run Locally
 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/the-game-2048.git
-cd the-game-2048
+git clone https://github.com/its-vivek-sharma/TheGame-2048.git
+cd TheGame-2048
 ```
 
-2. **Open the game in your browser:**
-
-Simply open the `index.html` file in any modern web browser:
+2. **Open `index.html` in your browser:**
 
 - Double-click `index.html`, or  
 - Right-click → Open with → Your browser
 
-Alternatively, serve it with a local server (optional):
+Alternatively, you can serve it locally using Python:
 
 ```bash
 # Python 3.x
 python -m http.server
 ```
 
-Then go to `http://localhost:8000` in your browser.
+Then visit `http://localhost:8000` in your browser.
 
 ## 🎮 Controls
 
-- **Arrow Keys**: Move tiles (↑ ↓ ← →)
-- **Touch/Swipe**: Works on mobile and touch devices
+- **Arrow Keys** – Move tiles: ← ↑ → ↓
+- **Touch Gestures** – Swipe to move (mobile support)
 
 ## 📁 File Structure
 
 ```
-the-game-2048/
+TheGame-2048/
 ├── index.html      # Main HTML file
 ├── style.css       # Game styling
 ├── script.js       # Game logic
 └── README.md       # Project documentation
 ```
 
-## 📜 License
+## 📝 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## 🙌 Credits
+## 🙌 Acknowledgments
 
-- Inspired by [Gabriele Cirulli's 2048](https://github.com/gabrielecirulli/2048)
+- Inspired by the original [2048 by Gabriele Cirulli](https://github.com/gabrielecirulli/2048)
 
 ---
 
-Enjoy the game! 🎉
+Enjoy the game and feel free to contribute or share feedback! 🎉
